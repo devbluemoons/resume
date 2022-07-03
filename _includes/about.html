@@ -2,11 +2,9 @@
   <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
   "About Me" }}</h3>
   <div class="row clearfix">
-    {%- if site.about_profile_image -%}
       <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
+        <span class="profile-img" style="background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQGtcxUhRCeEgQ/profile-displayphoto-shrink_800_800/0/1656321254134?e=1661990400&v=beta&t=9t1GsdBn1fiAwLNHZ6Ov0vSHUZ2f9o1dZozU6ZXlRjI)"></span>
       </div>
-    {%- endif -%}
     <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
       {{ site.about_content | strip | markdownify }}
     </div>
