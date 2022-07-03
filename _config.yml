@@ -167,7 +167,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: KH 정보교육원 (종로)
+        title: KH 정보교육원
         link: https://www.iei.or.kr/mobile2017/interviewView.kh?no=213
         link_text: Interview (링크)
         description: Java 웹 어플리케이션 양성과정 수료
